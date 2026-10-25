@@ -1,0 +1,12 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Company snapshot results",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Company snapshots and change status",
+      "description": "Company-only status, five allowlisted fields, source/time and optional hash comparison.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+    }
+  }
+}

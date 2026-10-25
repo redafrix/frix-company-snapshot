@@ -1,1 +1,12 @@
-{"actorSpecification":1,"name":"frix-company-snapshot","title":"French company snapshot and change check","version":"0.1","dockerfile":"../Dockerfile","input":"./input_schema.json","storages":{"dataset":"./dataset_schema.json"}}
+{
+  "actorSpecification": 1,
+  "name": "frix-company-snapshot",
+  "title": "French company snapshot and change check",
+  "version": "0.1",
+  "dockerfile": "../Dockerfile",
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "output": "./output_schema.json"
+}
