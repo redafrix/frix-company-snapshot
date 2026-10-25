@@ -25,7 +25,7 @@ The Actor makes requests at one per second. It does not return people, directors
 
 ## Pricing
 
-Consult current Apify Store pricing. The `company-snapshot` event applies only to an eligible company with status `found`; missing, excluded, or unavailable results are not charged by this Actor. Platform usage may apply under the displayed plan. No paid pricing is configured or implied here.
+Pay per event: $3 per 1,000 eligible company snapshots ($0.003 each), with platform usage included. The `company-snapshot` event applies only to an eligible company with status `found`; missing, excluded, or unavailable results are not charged. There is no separate start fee or automatic dataset-item fee. Consult the Store pricing tab for current terms.
 
 ## License and data
 
