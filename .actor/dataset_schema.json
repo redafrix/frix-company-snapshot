@@ -1,1 +1,53 @@
-{"actorSpecification":1,"fields":{},"views":{"overview":{"title":"Company snapshots","transformation":{"fields":["siren","status","company","changed","snapshotHash","checkedAt","sourceUrl"]},"display":{"component":"table","properties":{"siren":{"label":"SIREN","format":"text"},"status":{"label":"Status","format":"text"},"company":{"label":"Public company","format":"object"},"changed":{"label":"Changed","format":"boolean"},"snapshotHash":{"label":"Snapshot hash","format":"text"},"checkedAt":{"label":"Checked","format":"date"},"sourceUrl":{"label":"Official source","format":"link"}}}}}
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Company snapshots",
+      "transformation": {
+        "fields": [
+          "siren",
+          "status",
+          "company",
+          "changed",
+          "snapshotHash",
+          "checkedAt",
+          "sourceUrl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "siren": {
+            "label": "SIREN",
+            "format": "text"
+          },
+          "status": {
+            "label": "Status",
+            "format": "text"
+          },
+          "company": {
+            "label": "Public company",
+            "format": "object"
+          },
+          "changed": {
+            "label": "Changed",
+            "format": "boolean"
+          },
+          "snapshotHash": {
+            "label": "Snapshot hash",
+            "format": "text"
+          },
+          "checkedAt": {
+            "label": "Checked",
+            "format": "date"
+          },
+          "sourceUrl": {
+            "label": "Official source",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}
